@@ -1,0 +1,23 @@
+.card:hover {
+  border-radius: 10px;
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+  background-color: #ffffff;
+}
+
+.card {
+  background-color: #f5f5f5;
+}
+
+.Service_card:hover {
+  border-radius: 10px;
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+  background-color: #ffffff;
+}
+
+@media (max-width: 800px) {
+  .d-flex {
+    flex-direction: column;
+  }
+}
